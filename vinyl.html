@@ -3,22 +3,88 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Vinyl</title>
+    <title>Vinyl Records - Community Cooks Cooperative</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 25px;
+        }
+
+        .catalog {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .record-card {
+            width: 220px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 12px;
+            background-color: white;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .record-card img {
+            width: 180px;
+            display: block;
+            margin: auto;
+        }
+
+        .title {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .status {
+            color: #555;
+            margin-top: 5px;
+        }
+    </style>
 </head>
 
 <body>
 
-    <h1>Vinyl</h1>
-
-    <ul>
-        <li>Sly &amp; The Family Stone Greatest Hits</li>
-        <li>Guardians of the Galaxy: Awesome Mix Vol. 1</li>
-        <li>A Charlie Brown Thanksgiving (Original Soundtrack Recording)</li>
-    </ul>
+    <h1>Vinyl Records</h1>
 
     <p>
         <a href="collection.html">Back to Collection</a>
     </p>
+
+    <div class="catalog">
+
+        <div class="record-card">
+            <img src="images/vinyl/vinyl-0001.jpg">
+            <div class="title">
+                Sly & The Family Stone Greatest Hits
+            </div>
+            <div class="status">
+                Status: available
+            </div>
+        </div>
+
+        <div class="record-card">
+            <img src="images/vinyl/vinyl-0002.jpg">
+            <div class="title">
+                Guardians of the Galaxy: Awesome Mix Vol. 1
+            </div>
+            <div class="status">
+                Status: available
+            </div>
+        </div>
+
+        <div class="record-card">
+            <img src="images/vinyl/vinyl-0003.jpg">
+            <div class="title">
+                A Charlie Brown Thanksgiving
+            </div>
+            <div class="status">
+                Status: available
+            </div>
+        </div>
+
+    </div>
 
 </body>
 
